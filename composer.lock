@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8ae63f849fb9db4c4dcc24c6e80d59b6",
+    "content-hash": "4240d3c4d0d140818c775fca161bce42",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -662,17 +662,81 @@
             "time": "2019-06-08T11:03:04+00:00"
         },
         {
-            "name": "drupal/core",
-            "version": "8.9.0",
+            "name": "drupal/better_normalizers",
+            "version": "1.0.0-beta4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/drupal/core.git",
-                "reference": "f90882ab0723becda2333e4d33e1a6ab27cb8f0c"
+                "url": "https://git.drupalcode.org/project/better_normalizers.git",
+                "reference": "8.x-1.0-beta4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/f90882ab0723becda2333e4d33e1a6ab27cb8f0c",
-                "reference": "f90882ab0723becda2333e4d33e1a6ab27cb8f0c",
+                "url": "https://ftp.drupal.org/files/projects/better_normalizers-8.x-1.0-beta4.zip",
+                "reference": "8.x-1.0-beta4",
+                "shasum": "19e63328ca9ab77aaa328d87efd7429f4adb386e"
+            },
+            "require": {
+                "drupal/core": "^8.7.7 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta4",
+                    "datestamp": "1576069085",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Fritsch (chr.fritsch)",
+                    "homepage": "https://www.drupal.org/u/chrfritsch",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Andrey Postnikov (andypost)",
+                    "homepage": "https://www.drupal.org/u/andypost",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Sam Becker (Sam152)",
+                    "homepage": "https://www.drupal.org/u/sam152",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Lee Rowlands (larowlan)",
+                    "homepage": "https://www.drupal.org/u/larowlan",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Improve the normalizers in core.",
+            "homepage": "https://www.drupal.org/project/better_normalizers",
+            "support": {
+                "source": "https://git.drupal.org/project/better_normalizers.git",
+                "issues": "https://www.drupal.org/project/issues/better_normalizers"
+            }
+        },
+        {
+            "name": "drupal/core",
+            "version": "8.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drupal/core.git",
+                "reference": "e8ee964c562870381876e85d3f5eaaf8c8ecc9ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/drupal/core/zipball/e8ee964c562870381876e85d3f5eaaf8c8ecc9ee",
+                "reference": "e8ee964c562870381876e85d3f5eaaf8c8ecc9ee",
                 "shasum": ""
             },
             "require": {
@@ -885,22 +949,16 @@
                     "lib/Drupal/Core/Site/Settings.php"
                 ]
             },
-            "scripts": {
-                "pre-autoload-dump": [
-                    "Drupal\\Core\\Composer\\Composer::preAutoloadDump"
-                ],
-                "post-autoload-dump": [
-                    "Drupal\\Core\\Composer\\Composer::ensureHtaccess"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "description": "Drupal is an open source content management platform powering millions of websites and applications."
+            "description": "Drupal is an open source content management platform powering millions of websites and applications.",
+            "time": "2020-06-17T17:57:48+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "8.9.0",
+            "version": "8.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -934,6 +992,7 @@
                     "Drupal\\Composer\\Plugin\\Scaffold\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -941,11 +1000,12 @@
             "homepage": "https://www.drupal.org/project/drupal",
             "keywords": [
                 "drupal"
-            ]
+            ],
+            "time": "2020-05-29T11:36:27+00:00"
         },
         {
             "name": "drupal/core-project-message",
-            "version": "8.9.0",
+            "version": "8.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-project-message.git",
@@ -970,6 +1030,7 @@
                     "Drupal\\Composer\\Plugin\\ProjectMessage\\": "."
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
@@ -977,20 +1038,21 @@
             "homepage": "https://www.drupal.org/project/drupal",
             "keywords": [
                 "drupal"
-            ]
+            ],
+            "time": "2020-05-11T08:00:18+00:00"
         },
         {
             "name": "drupal/core-recommended",
-            "version": "8.9.0",
+            "version": "8.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "1b87cf5dea633a66a1c4f22d635bc92c127071d9"
+                "reference": "41042f9eaa35b027e6b2c42fa03edcb85da54a06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/1b87cf5dea633a66a1c4f22d635bc92c127071d9",
-                "reference": "1b87cf5dea633a66a1c4f22d635bc92c127071d9",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/41042f9eaa35b027e6b2c42fa03edcb85da54a06",
+                "reference": "41042f9eaa35b027e6b2c42fa03edcb85da54a06",
                 "shasum": ""
             },
             "require": {
@@ -1002,7 +1064,7 @@
                 "doctrine/common": "v2.7.3",
                 "doctrine/inflector": "v1.2.0",
                 "doctrine/lexer": "1.0.2",
-                "drupal/core": "8.9.0",
+                "drupal/core": "8.9.1",
                 "easyrdf/easyrdf": "0.9.1",
                 "egulias/email-validator": "2.1.17",
                 "guzzlehttp/guzzle": "6.5.4",
@@ -1054,10 +1116,140 @@
                 "webflo/drupal-core-strict": "*"
             },
             "type": "metapackage",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "description": "Locked core dependencies; require this project INSTEAD OF drupal/core."
+            "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
+            "time": "2020-06-17T17:57:48+00:00"
+        },
+        {
+            "name": "drupal/default_content",
+            "version": "1.0.0-alpha7",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/default_content.git",
+                "reference": "8.x-1.0-alpha7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/default_content-8.x-1.0-alpha7.zip",
+                "reference": "8.x-1.0-alpha7",
+                "shasum": "4f1b49cdad6d74ef879f4700caaa11703ba85ad7"
+            },
+            "require": {
+                "drupal/core": "~8.3"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0-alpha7",
+                    "datestamp": "1556924587",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "Sam152",
+                    "homepage": "https://www.drupal.org/user/1485048"
+                },
+                {
+                    "name": "andypost",
+                    "homepage": "https://www.drupal.org/user/118908"
+                },
+                {
+                    "name": "benjy",
+                    "homepage": "https://www.drupal.org/user/1852732"
+                },
+                {
+                    "name": "dawehner",
+                    "homepage": "https://www.drupal.org/user/99340"
+                },
+                {
+                    "name": "jibran",
+                    "homepage": "https://www.drupal.org/user/1198144"
+                },
+                {
+                    "name": "larowlan",
+                    "homepage": "https://www.drupal.org/user/395439"
+                }
+            ],
+            "description": "Imports default content when a module is enabled",
+            "homepage": "https://www.drupal.org/project/default_content",
+            "support": {
+                "source": "https://git.drupalcode.org/project/default_content"
+            }
+        },
+        {
+            "name": "drupal/default_content_deploy",
+            "version": "1.0.0-alpha6",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/default_content_deploy.git",
+                "reference": "8.x-1.0-alpha6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/default_content_deploy-8.x-1.0-alpha6.zip",
+                "reference": "8.x-1.0-alpha6",
+                "shasum": "8db0fd01a1ea6b996bfbb7f9135cf458bfee94fd"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/default_content": "1.0-alpha7",
+                "php": ">=5.6.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0-alpha6",
+                    "datestamp": "1577702283",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Martin Klíma",
+                    "homepage": "https://www.drupal.org/user/340058",
+                    "email": "author@example.com"
+                },
+                {
+                    "name": "Jakub Hnilička",
+                    "homepage": "https://www.drupal.org/user/2784335"
+                },
+                {
+                    "name": "Radoslav Terezka",
+                    "homepage": "https://www.drupal.org/user/3289357"
+                }
+            ],
+            "description": "Drupal 8 module for deploying content in *.json files. Sponsored by: HBF s.r.o., http://hbf.sk, https://drupal.org/hbf",
+            "homepage": "https://www.drupal.org/project/default_content_deploy",
+            "support": {
+                "source": "https://git.drupalcode.org/project/default_content_deploy"
+            }
         },
         {
             "name": "easyrdf/easyrdf",
@@ -4788,7 +4980,7 @@
         },
         {
             "name": "drupal/core-dev",
-            "version": "8.9.0",
+            "version": "8.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-dev.git",
@@ -4831,134 +5023,6 @@
             ],
             "description": "require-dev dependencies from drupal/drupal; use in addition to drupal/core-recommended to run tests from drupal/core.",
             "time": "2020-05-09T07:53:22+00:00"
-        },
-        {
-            "name": "drupal/default_content",
-            "version": "1.0.0-alpha7",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/default_content.git",
-                "reference": "8.x-1.0-alpha7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/default_content-8.x-1.0-alpha7.zip",
-                "reference": "8.x-1.0-alpha7",
-                "shasum": "4f1b49cdad6d74ef879f4700caaa11703ba85ad7"
-            },
-            "require": {
-                "drupal/core": "~8.3"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-1.0-alpha7",
-                    "datestamp": "1556924587",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Berdir",
-                    "homepage": "https://www.drupal.org/user/214652"
-                },
-                {
-                    "name": "Sam152",
-                    "homepage": "https://www.drupal.org/user/1485048"
-                },
-                {
-                    "name": "andypost",
-                    "homepage": "https://www.drupal.org/user/118908"
-                },
-                {
-                    "name": "benjy",
-                    "homepage": "https://www.drupal.org/user/1852732"
-                },
-                {
-                    "name": "dawehner",
-                    "homepage": "https://www.drupal.org/user/99340"
-                },
-                {
-                    "name": "jibran",
-                    "homepage": "https://www.drupal.org/user/1198144"
-                },
-                {
-                    "name": "larowlan",
-                    "homepage": "https://www.drupal.org/user/395439"
-                }
-            ],
-            "description": "Imports default content when a module is enabled",
-            "homepage": "https://www.drupal.org/project/default_content",
-            "support": {
-                "source": "https://git.drupalcode.org/project/default_content"
-            }
-        },
-        {
-            "name": "drupal/default_content_deploy",
-            "version": "1.0.0-alpha6",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/default_content_deploy.git",
-                "reference": "8.x-1.0-alpha6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/default_content_deploy-8.x-1.0-alpha6.zip",
-                "reference": "8.x-1.0-alpha6",
-                "shasum": "8db0fd01a1ea6b996bfbb7f9135cf458bfee94fd"
-            },
-            "require": {
-                "drupal/core": "~8.0",
-                "drupal/default_content": "1.0-alpha7",
-                "php": ">=5.6.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-1.0-alpha6",
-                    "datestamp": "1577702283",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
-                    }
-                },
-                "drush": {
-                    "services": {
-                        "drush.services.yml": "^9"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Martin Klíma",
-                    "homepage": "https://www.drupal.org/user/340058",
-                    "email": "author@example.com"
-                },
-                {
-                    "name": "Jakub Hnilička",
-                    "homepage": "https://www.drupal.org/user/2784335"
-                },
-                {
-                    "name": "Radoslav Terezka",
-                    "homepage": "https://www.drupal.org/user/3289357"
-                }
-            ],
-            "description": "Drupal 8 module for deploying content in *.json files. Sponsored by: HBF s.r.o., http://hbf.sk, https://drupal.org/hbf",
-            "homepage": "https://www.drupal.org/project/default_content_deploy",
-            "support": {
-                "source": "https://git.drupalcode.org/project/default_content_deploy"
-            }
         },
         {
             "name": "drupal/devel",
