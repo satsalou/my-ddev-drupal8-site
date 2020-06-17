@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_book_bundle
+    - node.type.mt_book
+    - taxonomy.vocabulary.mt_book_bundles
+id: node.mt_book.field_mt_book_bundle
+field_name: field_mt_book_bundle
+entity_type: node
+bundle: mt_book
+label: Bundle
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      mt_book_bundles: mt_book_bundles
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

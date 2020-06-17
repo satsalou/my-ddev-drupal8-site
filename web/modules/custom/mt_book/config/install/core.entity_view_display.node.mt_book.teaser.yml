@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.mt_book.field_mt_book_body
+    - field.field.node.mt_book.field_mt_book_bundle
+    - field.field.node.mt_book.field_mt_book_download_files
+    - field.field.node.mt_book.field_mt_book_images
+    - field.field.node.mt_book.field_mt_book_isbn
+    - node.type.mt_book
+  module:
+    - user
+id: node.mt_book.teaser
+targetEntityType: node
+bundle: mt_book
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_mt_book_body: true
+  field_mt_book_bundle: true
+  field_mt_book_download_files: true
+  field_mt_book_images: true
+  field_mt_book_isbn: true

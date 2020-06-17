@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_book_isbn
+    - node.type.mt_book
+id: node.mt_book.field_mt_book_isbn
+field_name: field_mt_book_isbn
+entity_type: node
+bundle: mt_book
+label: ISBN
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

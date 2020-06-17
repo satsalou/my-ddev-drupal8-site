@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mt_book_download_files
+    - node.type.mt_book
+  module:
+    - file
+id: node.mt_book.field_mt_book_download_files
+field_name: field_mt_book_download_files
+entity_type: node
+bundle: mt_book
+label: 'Download Files'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'pdf doc docx odf'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

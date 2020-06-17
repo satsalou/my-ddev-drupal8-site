@@ -1,0 +1,15 @@
+name: 'Book'
+type: module
+description: 'MT Book content type'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'MT Configuration'
+dependencies:
+  - file
+  - image
+  - path
+  - text
+  - user
+  - node
+  - taxonomy
+  - menu_ui

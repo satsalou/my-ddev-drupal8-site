@@ -1,0 +1,66 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.mt_book.field_mt_book_body
+    - field.field.node.mt_book.field_mt_book_bundle
+    - field.field.node.mt_book.field_mt_book_download_files
+    - field.field.node.mt_book.field_mt_book_images
+    - field.field.node.mt_book.field_mt_book_isbn
+    - node.type.mt_book
+  module:
+    - file
+    - image
+    - text
+    - user
+id: node.mt_book.default
+targetEntityType: node
+bundle: mt_book
+mode: default
+content:
+  field_mt_book_body:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_mt_book_bundle:
+    weight: 107
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_mt_book_download_files:
+    weight: 106
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_mt_book_images:
+    weight: 105
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_mt_book_isbn:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

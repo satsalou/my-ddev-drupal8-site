@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Book Bundles'
+vid: mt_book_bundles
+description: 'A bundle has a number of Books'
+weight: 0

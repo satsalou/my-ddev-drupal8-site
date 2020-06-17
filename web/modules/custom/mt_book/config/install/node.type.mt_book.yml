@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Book
+type: mt_book
+description: 'Holds all the information related to a Book such as its title, ISBN, description and download files related to that.'
+help: 'Enter the information related to the book.'
+new_revision: true
+preview_mode: 1
+display_submitted: false
