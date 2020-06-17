@@ -1,0 +1,253 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/my-ddev-drupal8-site.ddev.site\/node\/2?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/mt_book"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/mt_book\/revision_uid": [
+            {
+                "href": "http:\/\/my-ddev-drupal8-site.ddev.site\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/mt_book\/uid": [
+            {
+                "href": "http:\/\/my-ddev-drupal8-site.ddev.site\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/mt_book\/field_mt_book_bundle": [
+            {
+                "href": "http:\/\/my-ddev-drupal8-site.ddev.site\/taxonomy\/term\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/mt_book\/field_mt_book_download_files": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/mt_book\/field_mt_book_images": [
+            {
+                "href": ""
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 2
+        }
+    ],
+    "uuid": [
+        {
+            "value": "157a73ba-966a-4d60-9239-0b1370cc8ffe"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "mt_book"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-06-17T20:09:18+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/mt_book\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/my-ddev-drupal8-site.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "172e4a0c-c812-4ad7-8a7d-04e3c8bd3e61"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/mt_book\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/my-ddev-drupal8-site.ddev.site\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "172e4a0c-c812-4ad7-8a7d-04e3c8bd3e61"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/mt_book\/field_mt_book_bundle": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/my-ddev-drupal8-site.ddev.site\/taxonomy\/term\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/mt_book_bundles"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "613e89f7-10d3-4da3-92fc-4e4afa09cec7"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/mt_book\/field_mt_book_download_files": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2955eceb-5dcc-4a7d-bac9-ba23cb53cd3f"
+                    }
+                ],
+                "display": "1",
+                "description": ""
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3127afb5-0783-48ca-b87c-7d8e538cb9d4"
+                    }
+                ],
+                "display": "1",
+                "description": ""
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/mt_book\/field_mt_book_images": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "16862333-0e10-4ecd-8560-ac67b50219b5"
+                    }
+                ],
+                "alt": "The Employment Contract: Legal Principles, Drafting, and Interpretation",
+                "title": "",
+                "width": "180",
+                "height": "270"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Employment Contract: Legal Principles, Drafting, and Interpretation",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-17T20:06:56+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-06-17T20:09:18+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_mt_book_body": [
+        {
+            "value": "<ul>\r\n\t<li>Focuses on the application of contract law to the employment contract, so providing detailed and specialist advice for the employment lawyer<\/li>\r\n\t<li>Provides practical guidance for the practitioner in interpreting implied terms and drafting watertight employment contracts<\/li>\r\n\t<li>Analyses likely trends in the development of the employment contract<\/li>\r\n<\/ul>\r\n",
+            "format": "full_html",
+            "processed": "<ul>\n\t<li>Focuses on the application of contract law to the employment contract, so providing detailed and specialist advice for the employment lawyer<\/li>\n\t<li>Provides practical guidance for the practitioner in interpreting implied terms and drafting watertight employment contracts<\/li>\n\t<li>Analyses likely trends in the development of the employment contract<\/li>\n<\/ul>\n",
+            "summary": "Focuses on the application of contract law to the employment contract, so providing detailed and specialist advice for the employment lawyer."
+        }
+    ],
+    "field_mt_book_isbn": [
+        {
+            "value": "9780199269662"
+        }
+    ]
+}
