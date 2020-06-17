@@ -7,13 +7,16 @@ This is a Drupal 8 project with DDEV configuration
 You need to [install Docker](https://docs.docker.com/engine/install/) as a prerequisite.
 
 ### Install DDEV
-to install DDEV execute the following command:
+To install DDEV execute the following command:
 ```
 curl -L https://raw.githubusercontent.com/drud/ddev/master/scripts/install_ddev.sh | bash
 ```
 
 ### Start the container
 Run `ddev start`
+
+### Install dependencies
+Run `ddev composer install`
 
 ### Install website
 To install the Drupal website run:
