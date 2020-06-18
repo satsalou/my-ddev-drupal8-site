@@ -88,3 +88,8 @@ Finally, clear caches and run cron
 ddev exec drush cr
 ddev exec drush cron
 ```
+## Watch changes of configuration
+```
+ddev exec drush en config_devel
+ddev exec drush cde {module_name}
+```
