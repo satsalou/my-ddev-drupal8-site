@@ -14,19 +14,19 @@ dependencies:
   - taxonomy
   - menu_ui
 config_devel:
-  - core.entity_view_display.node.mt_book.default.yml
-  - core.base_field_override.node.mt_book.promote.yml
-  - core.entity_form_display.node.mt_book.default.yml
-  - core.entity_view_display.node.mt_book.teaser.yml
-  - field.field.node.mt_book.field_mt_book_body.yml
-  - field.field.node.mt_book.field_mt_book_bundle.yml
-  - field.field.node.mt_book.field_mt_book_download_files.yml
-  - field.field.node.mt_book.field_mt_book_images.yml
-  - field.field.node.mt_book.field_mt_book_isbn.yml
-  - field.storage.node.field_mt_book_body.yml
-  - field.storage.node.field_mt_book_bundle.yml
-  - field.storage.node.field_mt_book_download_files.yml
-  - field.storage.node.field_mt_book_images.yml
-  - field.storage.node.field_mt_book_isbn.yml
-  - node.type.mt_book.yml
-  - taxonomy.vocabulary.mt_book_bundles.yml
+  - core.entity_view_display.node.mt_book.default
+  - core.base_field_override.node.mt_book.promote
+  - core.entity_form_display.node.mt_book.default
+  - core.entity_view_display.node.mt_book.teaser
+  - field.field.node.mt_book.field_mt_book_body
+  - field.field.node.mt_book.field_mt_book_bundle
+  - field.field.node.mt_book.field_mt_book_download_files
+  - field.field.node.mt_book.field_mt_book_images
+  - field.field.node.mt_book.field_mt_book_isbn
+  - field.storage.node.field_mt_book_body
+  - field.storage.node.field_mt_book_bundle
+  - field.storage.node.field_mt_book_download_files
+  - field.storage.node.field_mt_book_images
+  - field.storage.node.field_mt_book_isbn
+  - node.type.mt_book
+  - taxonomy.vocabulary.mt_book_bundles
