@@ -1,12 +1,14 @@
 /vendor/
-/web/core/
-/web/modules/contrib/
 
-# Exclude everything under /web/sites/default/files/ but /web/sites/default/files/sync/
+# Exclude everything under /web/ but /web/sites/default/files/sync/
+# and /web/modules/custom/
 !/web/
 /web/*
 !/web/sites/
+!/web/modules/
 /web/sites/*
+/web/modules/contrib/*
+!/web/modules/custom/
 !/web/sites/default/
 /web/sites/default/*
 !/web/sites/default/files/
