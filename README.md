@@ -85,6 +85,6 @@ cp config/files-dev/* web/sites/default/files/ -r
 ### Clear cache and run cron
 Finally, clear caches and run cron
 ```
-./bin/drush cr
-./bin/drush cron
+ddev exec drush cr
+ddev exec drush cron
 ```
